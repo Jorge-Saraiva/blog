@@ -1,0 +1,40 @@
+.container__big-card {
+	min-height: auto;
+
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+	align-items: start;
+}
+
+.big-card__photo,
+.big-card__title {
+	width: 100%;
+}
+
+.big-card__photo {
+	object-fit: cover;
+	object-position: center;
+}
+
+.big-card__photo img {
+	max-width: 100%;
+}
+
+.big-card__title > p,
+.big-card__description > p {
+	color: grey;
+}
+
+.big-card__title,
+.big-card__description {
+	max-width: 90%;
+	text-align: left;
+}
+
+@media screen and (min-width: 700px) {
+	.big-card__title {
+		max-width: 90%;
+	}
+}
+

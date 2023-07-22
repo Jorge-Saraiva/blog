@@ -1,0 +1,12 @@
+.container__articles {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 40px;
+	padding: 25px 0;
+}
+
+@media screen and (min-width: 750px) {
+	.container__articles {
+		grid-template-columns: 60% auto;
+	}
+}

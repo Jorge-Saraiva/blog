@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #111111;
+	color: #fff;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+	padding: 0 25px;
+	max-width: 1400px;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.hr {
+	border: .1px solid rgba(68, 68, 68, .5);
+}
