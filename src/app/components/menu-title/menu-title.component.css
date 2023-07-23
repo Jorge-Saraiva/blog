@@ -4,12 +4,16 @@
 	text-transform: uppercase;
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
+	gap: 10px;
 }
 
 .container__menu-title > h1 {
 	font-size: 4rem;
 	text-align: center;
+}
+
+.container__menu-title .hr {
+	margin: 0;
 }
 
 

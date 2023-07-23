@@ -1,0 +1,5 @@
+@media screen and (min-width: 700px) {
+	.big-card__title {
+		max-width: 90%;
+	}
+}

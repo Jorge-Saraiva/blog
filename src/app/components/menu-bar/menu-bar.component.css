@@ -7,3 +7,11 @@
 
 	margin: 20px 0;
 }
+
+.container__menu-bar ul li a {
+	transition: color ease-in-out .2s;
+}
+
+.container__menu-bar ul li a:hover {
+	color: grey;
+}
