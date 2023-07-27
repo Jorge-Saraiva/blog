@@ -24,11 +24,6 @@
 	object-position: center;
 }
 
-.big-card__title > p,
-.big-card__description > p {
-	color: grey;
-}
-
 .big-card__title,
 .big-card__description {
 	max-width: 90%;

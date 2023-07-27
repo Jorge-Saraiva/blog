@@ -1,0 +1,27 @@
+.container__content {
+	width: 100%;
+	padding: 20px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: center;
+	justify-content: center;
+}
+
+.content__cover {
+	max-width: 100%;
+}
+
+.content__cover > img {
+	max-width: 600px;
+	height: 350px;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 5px;
+	border: 5px solid rgb(62, 62, 62);
+}
+
+.content__description > p {
+	max-width: 600px;
+ }

@@ -1,11 +1,11 @@
 <section class="container__small-card">
 	<div class="small-card__section">
 		<img
-		src="{{ photoCard }}"
+		src="{{ photoCover }}"
 		>
 		<div>
-			<p>{{ cardDate }}</p>
-			<h3>{{ cardTitle }}</h3>
+			<p>{{ contentDate }}</p>
+			<h3><a [routerLink]="['content', Id]">{{ contentTitle }}</a></h3>
 		</div>
 	</div>
 </section>

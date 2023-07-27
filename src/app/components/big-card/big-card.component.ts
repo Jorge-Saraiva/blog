@@ -11,11 +11,13 @@ export class BigCardComponent implements OnInit {
 	@Input()
 	photoCoverDescription: string = '';
 	@Input()
-	cardDate: string = '';
+	contentDate: string = '';
 	@Input()
-	cardTitle: string = '';
+	contentTitle: string = '';
 	@Input()
-	cardDescription: string = '';
+	contentDescription: string = '';
+	@Input()
+	Id:string = "0";
 
   constructor() { }
 
